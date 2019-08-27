@@ -14,9 +14,9 @@ import static util.Util.swap;
  * from index 1 to index N-2. And so on. The execution continues until the array
  * is completely ordered.
  */
-public class SimultaneousBubblesort<T extends Comparable<T>> extends
-		AbstractSorting<T> {
+public class SimultaneousBubblesort<T extends Comparable<T>> extends AbstractSorting<T> {
 	public void sort(T[] array, int leftIndex, int rightIndex) {
+
 		Verificador verificar = new Verificador();
 
 		boolean swapping = true;

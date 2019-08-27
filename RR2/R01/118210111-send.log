@@ -1,3 +1,79 @@
-<html><body><h1>504 Gateway Time-out</h1>
-The server didn't respond in time.
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-26T16:12:34.490-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 150.165.42.163 at 26-08-2019 16*12*34</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-26T17:39:59.702-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 150.165.42.163 at 26-08-2019 17*39*59</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-26T17:40:00.409-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 150.165.42.163 at 26-08-2019 17*40*00</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-26T22:26:12.810-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.6 at 26-08-2019 22*26*12</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-26T22:28:42.398-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.6 at 26-08-2019 22*28*42</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-26T22:31:37.663-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.6 at 26-08-2019 22*31*37</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-26T22:46:38.192-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.6 at 26-08-2019 22*46*38</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-26T22:47:12.210-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.6 at 26-08-2019 22*47*12</message>
+</record>
