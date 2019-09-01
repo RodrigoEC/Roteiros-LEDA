@@ -7,7 +7,6 @@ import static util.Util.swap;
 
 public class ThreeWayQuickSort<T extends Comparable<T>> extends
 		AbstractSorting<T> {
-	private Verificador verificador = new Verificador();
 
 
 	/**
@@ -31,28 +30,26 @@ public class ThreeWayQuickSort<T extends Comparable<T>> extends
 	@Override
 	public void sort(T[] array, int leftIndex, int rightIndex) {
 			if (leftIndex < rightIndex) {
-				if (leftIndex < rightIndex) {
-					int ponteiroIgualPivor = leftIndex;
-					int ponteiroMenorQuePivor = leftIndex;
+				int ponteiroIgualPivor = leftIndex;
+				int ponteiroMenorQuePivor = leftIndex;
 
-					T pivot = array[leftIndex];
-					for (int j = leftIndex + 1; j <= rightIndex; j++) {
-						if (pivot.compareTo(array[j]) > 0) {
-							ponteiroIgualPivor++;
-							ponteiroMenorQuePivor++;
+				T pivot = array[leftIndex];
+				for (int j = leftIndex + 1; j <= rightIndex; j++) {
+					if (pivot.compareTo(array[j]) > 0) {
+						ponteiroIgualPivor++;
+						ponteiroMenorQuePivor++;
 
-							swap(array,  j, ponteiroMenorQuePivor);
+						swap(array,  j, ponteiroMenorQuePivor);
 
-						} else if (pivot.compareTo(array[j]) == 0) {
-							ponteiroIgualPivor++;
-							swap(array, j, ponteiroIgualPivor);
-						}
+					} else if (pivot.compareTo(array[j]) == 0) {
+						ponteiroIgualPivor++;
+						swap(array, j, ponteiroIgualPivor);
 					}
-					swap(array, leftIndex, ponteiroMenorQuePivor);
-
-					sort(array, leftIndex, ponteiroMenorQuePivor);
-					sort(array, ponteiroIgualPivor + 1, rightIndex);
 				}
+				swap(array, leftIndex, ponteiroMenorQuePivor);
+
+				sort(array, leftIndex, ponteiroMenorQuePivor);
+				sort(array, ponteiroIgualPivor + 1, rightIndex);
 		}
 	}
 

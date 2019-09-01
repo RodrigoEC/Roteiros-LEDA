@@ -14,7 +14,6 @@ import static util.Util.swap;
  * has length == 1, it is already sorted.
  */
 public class QuickSort<T extends Comparable<T>> extends AbstractSorting<T> {
-	private Verificador verificador = new Verificador();
 
 	@Override
 	public void sort(T[] array, int leftIndex, int rightIndex) {
