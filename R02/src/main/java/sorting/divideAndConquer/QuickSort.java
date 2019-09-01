@@ -1,7 +1,6 @@
 package sorting.divideAndConquer;
 
 import sorting.AbstractSorting;
-import sorting.Verificador;
 
 import static util.Util.swap;
 

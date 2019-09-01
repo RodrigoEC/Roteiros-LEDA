@@ -1,7 +1,6 @@
 package sorting.divideAndConquer;
 
 import sorting.AbstractSorting;
-import sorting.Verificador;
 
 /**
  * Merge sort is based on the divide-and-conquer paradigm. The algorithm

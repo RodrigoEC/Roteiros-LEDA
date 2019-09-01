@@ -1,7 +1,6 @@
 package sorting.divideAndConquer.threeWayQuicksort;
 
 import sorting.AbstractSorting;
-import sorting.Verificador;
 
 import static util.Util.swap;
 
