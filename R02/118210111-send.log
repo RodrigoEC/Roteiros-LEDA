@@ -1,1 +1,99 @@
-Envio do roteiro R02-01 possivel apenas entre 29/08/2019 14:00:00 e 31/08/2019 14:00:00. A hora atual do servidor eh: 01/09/2019 11:02:16
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-29T14:19:36.590-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 150.165.42.164 at 29-08-2019 14*19*36</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-29T14:26:15.664-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 150.165.42.164 at 29-08-2019 14*26*15</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-29T19:49:05.305-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.7 at 29-08-2019 19*49*05</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-29T20:46:07.429-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.7 at 29-08-2019 20*46*07</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-29T20:47:02.864-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.7 at 29-08-2019 20*47*02</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-29T20:48:46.972-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.7 at 29-08-2019 20*48*46</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-29T22:34:48.326-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.7 at 29-08-2019 22*34*48</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-29T22:35:56.875-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.7 at 29-08-2019 22*35*56</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-08-29T23:14:11.908-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.7 at 29-08-2019 23*14*11</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-02T18:53:42.778-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.7 at 02-09-2019 18*53*42</message>
+</record>

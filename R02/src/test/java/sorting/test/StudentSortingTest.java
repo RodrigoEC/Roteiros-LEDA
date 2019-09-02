@@ -40,7 +40,7 @@ public class StudentSortingTest {
 	 */
 	private void getImplementation() {
 
-		this.implementation = new ThreeWayQuickSort<>();
+		this.implementation = new MergeSort<>();
 	}
 
 	public void populaVetorTamanhoPar(Integer[] arrayPadrao) {
