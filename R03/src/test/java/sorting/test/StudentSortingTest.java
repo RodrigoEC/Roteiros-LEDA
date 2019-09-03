@@ -40,7 +40,7 @@ public class StudentSortingTest {
 	private void getImplementation() {
 		// TODO O aluno deve instanciar sua implementação abaixo ao invés de
 		// null
-		this.implementation = new CountingSort();
+		this.implementation = new ExtendedCountingSort();
 	}
 
 	public void populaVetorTamanhoPar(Integer[] arrayPadrao) {

@@ -13,11 +13,13 @@ public class ExtendedCountingSort extends AbstractSorting<Integer> {
 	@Override
 	public void sort(Integer[] array, int leftIndex, int rightIndex) {
 		int[] maximoEminimoArray= maxEMin(array);
-		Integer[] arrayDeRepeticoes = new Integer[maximoEminimoArray[0] - maximoEminimoArray[1] + 1];
+		Integer menorElemento = maximoEminimoArray[1];
+		Integer maiorElemento = maximoEminimoArray[0];
+
+
+		Integer[] arrayDeRepeticoes = new Integer[maiorElemento - menorElemento + 1];
 		Integer[] arrayAuxiliar = new Integer[array.length];
 
-
-		//Integer diferença = tamanhoArray - elemento
 
 		// Todos os elementos do array de repeticoes agora são 0, não mais null.
 		for (int i = 0; i < arrayDeRepeticoes.length; i++) {
@@ -26,7 +28,7 @@ public class ExtendedCountingSort extends AbstractSorting<Integer> {
 
 		// Os elementos do array de entrada -menos o menor elemento do array são usados como indice para o arrayDeRepeticao.
 		for (int i = leftIndex; i <= rightIndex; i++) {
-			arrayDeRepeticoes[array[i] - maximoEminimoArray[1]]++;
+			arrayDeRepeticoes[array[i] - menorElemento]++;
 		}
 
 		// os elementos no array de repetições recebem como adição o elemento anterior da lista
@@ -39,8 +41,9 @@ public class ExtendedCountingSort extends AbstractSorting<Integer> {
 		// a esse indice decresce uma unidade e esse elemento eh usado como indice de onde o elemento do array de entrada será colocado
 		// no array auxiliar
 		for (int i = rightIndex; i >= leftIndex; i--) {
-			arrayDeRepeticoes[array[i] - maximoEminimoArray[1]]--;
-			Integer indiceElemento = arrayDeRepeticoes[array[i] - maximoEminimoArray[1]];
+
+			arrayDeRepeticoes[array[i] - menorElemento]--;
+			Integer indiceElemento = arrayDeRepeticoes[array[i] - menorElemento];
 			arrayAuxiliar[indiceElemento] = array[i];
 		}
 

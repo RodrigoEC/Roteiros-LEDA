@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-02T23:31:22.922-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.7 at 02-09-2019 23*31*22</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-02T23:37:24.522-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.7 at 02-09-2019 23*37*24</message>
+</record>
