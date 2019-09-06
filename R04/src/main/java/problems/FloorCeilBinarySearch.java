@@ -15,10 +15,10 @@ public class FloorCeilBinarySearch implements FloorCeil {
 
 	@Override
 	public Integer floor(Integer[] array, Integer x) {
-		if (array.length > 0) {
-			return floor(array, x, 0, array.length - 1);
+		if (array.length == 0 || x.compareTo(array[0]) < 0) {
+			return null;
 		} else {
-			return null; // Caso o array tenha tamanho 0, o método retorna null.
+			return floor(array, x, 0, array.length - 1);
 		}
 	}
 
@@ -32,23 +32,22 @@ public class FloorCeilBinarySearch implements FloorCeil {
 		int resultado;
 		if (array[meio + 1].compareTo(k) < 0) {
 			resultado = floor(array, k, meio + 1, fim);
+
 		} else if (array[meio + 1].compareTo(k) > 0){
 			resultado = floor(array, k, inicio, meio);
+
 		} else {
 			resultado = array[meio];
 		}
 		return resultado;
-
-
-
 	}
 
 	@Override
 	public Integer ceil(Integer[] array, Integer x) {
-		if (array.length > 0) {
-			return ceil(array, x, 0, array.length - 1);
-		} else {
+		if (array.length == 0 || x.compareTo(array[array.length - 1]) > 0) {
 			return null;
+		} else {
+			return ceil(array, x, 0, array.length - 1);
 		}
 	}
 
