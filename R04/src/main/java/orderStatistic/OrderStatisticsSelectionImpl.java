@@ -50,9 +50,20 @@ public class OrderStatisticsSelectionImpl<T extends Comparable<T>> implements Or
 	}
 
 	private T getMenor(T[] array, T menor) {
+		T menorElemento = getMaior(array);
+		for (int i = 1; i < array.length; i++) {
+			if (array[i].compareTo(menorElemento) < 0 && array[i].compareTo(menor) > 0) {
+				menorElemento = array[i];
+			}
+		}
+		return menorElemento;
+	}
+
+
+	private T getMaior(T[] array) {
 		T menorElemento = array[0];
 		for (int i = 1; i < array.length; i++) {
-			if (array[i].compareTo(menorElemento) <= 0 && array[i].compareTo(menor) > 0) {
+			if (array[i].compareTo(menorElemento) > 0) {
 				menorElemento = array[i];
 			}
 		}
