@@ -8,7 +8,7 @@ public class CircularQueue<T> implements Queue<T> {
 	private int elements;
 
 	public CircularQueue(int size) {
-		if (size >= 0) {
+		if (size > 0) {
 			array = (T[]) new Object[size];
 			head = -1;
 			tail = -1;

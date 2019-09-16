@@ -17,3 +17,13 @@
   <level>FINE</level>
   <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.6 at 16-09-2019 18*34*25</message>
 </record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-09-16T19:26:01.194-0300</date>
+  <logger>RODRIGO ELOY CAVALCANTI</logger>
+  <level>FINE</level>
+  <message>File 118210111-RODRIGO ELOY CAVALCANTI.zip was received. It was sent by RODRIGO ELOY CAVALCANTI from IP 192.168.1.6 at 16-09-2019 19*26*01</message>
+</record>

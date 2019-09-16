@@ -7,8 +7,10 @@ public class QueueImpl<T> implements Queue<T> {
 
 	@SuppressWarnings("unchecked")
 	public QueueImpl(int size) {
-		array = (T[]) new Object[size];
-		tail = -1;
+		if (size > 0) {
+			array = (T[]) new Object[size];
+			tail = -1;
+		}
 	}
 
 	@Override
