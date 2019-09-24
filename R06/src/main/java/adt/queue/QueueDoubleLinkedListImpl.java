@@ -2,45 +2,66 @@ package adt.queue;
 
 import adt.linkedList.DoubleLinkedList;
 import adt.linkedList.DoubleLinkedListImpl;
+import adt.linkedList.SingleLinkedListImpl;
 
 public class QueueDoubleLinkedListImpl<T> implements Queue<T> {
 
 	protected DoubleLinkedList<T> list;
 	protected int size;
+	protected int tamanhoAtual;
 
 	public QueueDoubleLinkedListImpl(int size) {
 		this.size = size;
 		this.list = new DoubleLinkedListImpl<T>();
+		this.tamanhoAtual = 0;
 	}
 
 	@Override
 	public void enqueue(T element) throws QueueOverflowException {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (this.tamanhoAtual == this.size) {
+			throw new QueueOverflowException();
+		} else {
+			this.list.insert(element);
+			this.tamanhoAtual++;
+		}
 	}
 
 	@Override
 	public T dequeue() throws QueueUnderflowException {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (this.tamanhoAtual == 0) {
+			throw new QueueUnderflowException();
+		} else {
+			T elemento = this.head();
+			this.list.removeFirst();
+			return elemento;
+		}
 	}
 
 	@Override
 	public T head() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
-	}
+		T head = null;
+		if (!this.list.isEmpty()) {
+			head = ((SingleLinkedListImpl<T>) this.list).getHead().getData();
+		}
+		return head;
+}
 
 	@Override
 	public boolean isEmpty() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if(this.list.isEmpty()) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	@Override
 	public boolean isFull() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (this.tamanhoAtual == this.size) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 }
