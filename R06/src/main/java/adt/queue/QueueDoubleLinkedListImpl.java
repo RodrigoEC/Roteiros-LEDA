@@ -18,11 +18,13 @@ public class QueueDoubleLinkedListImpl<T> implements Queue<T> {
 
 	@Override
 	public void enqueue(T element) throws QueueOverflowException {
-		if (this.tamanhoAtual == this.size) {
-			throw new QueueOverflowException();
-		} else {
-			this.list.insert(element);
-			this.tamanhoAtual++;
+		if (element != null) {
+			if (this.tamanhoAtual == this.size) {
+				throw new QueueOverflowException();
+			} else {
+				this.list.insert(element);
+				this.tamanhoAtual++;
+			}
 		}
 	}
 

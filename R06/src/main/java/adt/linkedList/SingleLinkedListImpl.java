@@ -56,7 +56,6 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 			this.head = new SingleLinkedListNode<T>(element, this.head);
 
 		} else {
-
 			while(!auxHead.next.isNIL()) {
 				auxHead = auxHead.next;
 			}
@@ -81,9 +80,6 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 			if (!aux.isNIL()) {
 				previous.next = aux.next;
 			}
-
-
-
 		}
 	}
 
@@ -97,10 +93,7 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 			aux = aux.getNext();
 		}
 
-
 		return (T[]) arraySaida.toArray();
-
-
 	}
 
 	public SingleLinkedListNode<T> getHead() {

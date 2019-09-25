@@ -6,14 +6,19 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 	protected DoubleLinkedListNode<T> last;
 
 
+	public DoubleLinkedListImpl() {
+		this.last = new DoubleLinkedListNode<>();
+	}
 	@Override
 	public void insert(T element) {
 		if (element != null) {
 			DoubleLinkedListNode<T> nil = new DoubleLinkedListNode<T>();
-			DoubleLinkedListNode<T> elem = new DoubleLinkedListNode<T>(element, nil, last);
+			DoubleLinkedListNode<T> elem = new DoubleLinkedListNode<T>(element, nil, this.last);
 
 			if (isEmpty()) {
-				super.head = this.last = elem;
+				super.head = elem;
+				this.last = elem;
+
 			} else {
 				this.last.next = elem;
 				this.last = elem;
@@ -23,40 +28,46 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 
 	@Override
 	public void insertFirst(T element) {
-		DoubleLinkedListNode<T> previous = new DoubleLinkedListNode<T>();
-		DoubleLinkedListNode<T> next = (DoubleLinkedListNode<T>)this.getHead();
+		if (element != null) {
+			DoubleLinkedListNode<T> previous = new DoubleLinkedListNode<T>();
+			DoubleLinkedListNode<T> next = this.getHead();
 
-		DoubleLinkedListNode<T> newHead = new DoubleLinkedListNode<T>(element, next, previous);
+			DoubleLinkedListNode<T> newHead = new DoubleLinkedListNode<T>(element, next, previous);
 
-		((DoubleLinkedListNode<T>) this.head).previous = new DoubleLinkedListNode<>();
+			((DoubleLinkedListNode<T>) this.head).previous = new DoubleLinkedListNode<>();
 
-		if (this.head.isNIL()) {
-			this.last = newHead;
+			if (this.head.isNIL()) {
+				this.last = newHead;
+			}
+
+			this.head = newHead;
 		}
-
-		this.head = newHead;
 	}
 
 	@Override
 	public void removeFirst() {
-		if (!this.head.isNIL()) {
-			this.head = head.next;
-		} else {
-			this.last = (DoubleLinkedListNode<T>) this.head;
-		}
+		if (!this.isEmpty()) {
+			if (!this.head.isNIL()) {
+				this.head = head.next;
+			} else {
+				this.last = (DoubleLinkedListNode<T>) this.head;
+			}
 
-		((DoubleLinkedListNode<T>) this.head).previous = new DoubleLinkedListNode<T>();
+			((DoubleLinkedListNode<T>) this.head).previous = new DoubleLinkedListNode<T>();
+		}
 	}
 
 	@Override
 	public void removeLast() {
-		if (!this.getLast().isNIL()) {
-			this.setLast(last.getPrevious());
+		if (!this.isEmpty()) {
+			if (!this.getLast().isNIL()) {
+				this.setLast(last.getPrevious());
 
-			if (this.last.isNIL()) {
-				this.setHead(this.last);
+				if (this.last.isNIL()) {
+					this.setHead(this.last);
+				}
+				this.last.next = new DoubleLinkedListNode<>();
 			}
-			this.last.next = new DoubleLinkedListNode<>();
 		}
 	}
 
