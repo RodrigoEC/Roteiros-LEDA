@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f9fbf19-bed4-4416-86ce-87d62e0f05d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submission.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Roteiros-LEDA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Roteiros-LEDA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adt/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/stack/StackRecursiveDoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/stack/StackRecursiveDoubleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/adt/linkedList/StudentDoubleLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/linkedList/StudentDoubleLinkedListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,22 +25,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="102" />
+          <entry key="java" value="1207" />
+          <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="102" />
+          <entry key="JAVA" value="1207" />
+          <entry key="PLAIN_TEXT" value="30" />
         </counts>
       </usages-collector>
     </session>
@@ -55,35 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/adt/linkedList/StudentDoubleLinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/DoubleLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="429">
+              <caret line="57" column="79" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -91,13 +61,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveSingleLinkedListImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="-677">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/StackRecursiveDoubleLinkedListImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/adt/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -107,8 +105,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/adt/linkedList/StudentLinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveSingleLinkedListImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/adt/linkedList/StudentDoubleLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/stack/StackRecursiveDoubleLinkedListImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/Main.java" />
       </list>
     </option>
   </component>
@@ -172,6 +172,15 @@
               <item name="submission" type="b2602c69:ProjectViewProjectNode" />
               <item name="R07" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="adt" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R07" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -197,7 +206,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569518412771" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569522408111" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -212,7 +221,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentDoubleLinkedListTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adt.Main" />
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentDoubleLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -223,6 +245,38 @@
       </extension>
       <option name="PACKAGE_NAME" value="adt.linkedList" />
       <option name="MAIN_CLASS_NAME" value="adt.linkedList.StudentDoubleLinkedListTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDoubleLinkedListTest.testRemoveLastListaNaoVazia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="adt.linkedList.StudentDoubleLinkedListTest" />
+      <option name="METHOD_NAME" value="testRemoveLastListaNaoVazia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDoubleLinkedListTest.testRemoveLastListaVazia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="adt.linkedList.StudentDoubleLinkedListTest" />
+      <option name="METHOD_NAME" value="testRemoveLastListaVazia" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -242,13 +296,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StudentLinkedListTest" />
       <item itemvalue="JUnit.StudentDoubleLinkedListTest" />
+      <item itemvalue="JUnit.StudentDoubleLinkedListTest.testRemoveLastListaVazia" />
+      <item itemvalue="JUnit.StudentDoubleLinkedListTest.testRemoveLastListaNaoVazia" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.StudentLinkedListTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentDoubleLinkedListTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.StudentLinkedListTest" />
+        <item itemvalue="JUnit.StudentDoubleLinkedListTest" />
+        <item itemvalue="JUnit.StudentDoubleLinkedListTest.testRemoveLastListaNaoVazia" />
+        <item itemvalue="JUnit.StudentDoubleLinkedListTest.testRemoveLastListaVazia" />
       </list>
     </recent_temporary>
   </component>
@@ -263,19 +323,45 @@
       <option name="presentableId" value="Default" />
       <updated>1569517848288</updated>
     </task>
+    <task id="LOCAL-00001" summary="só pra tirar essas cores :3">
+      <created>1569518459604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569518459604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentLinkedListTest - 2019.09.26 at 14h 14m 23s.xml">
-      <configuration name="StudentLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentLinkedListTest - 2019.09.26 at 14h 15m 29s.xml">
-      <configuration name="StudentLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentLinkedListTest - 2019.09.26 at 14h 16m 19s.xml">
-      <configuration name="StudentLinkedListTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentLinkedListTest - 2019.09.26 at 14h 16m 37s.xml">
+      <configuration name="StudentLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDoubleLinkedListTest - 2019.09.26 at 14h 20m 16s.xml">
+      <configuration name="StudentDoubleLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDoubleLinkedListTest_testRemoveListaVazia - 2019.09.26 at 14h 41m 18s.xml">
+      <configuration name="StudentDoubleLinkedListTest.testRemoveListaVazia" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDoubleLinkedListTest_testRemoveListaVazia - 2019.09.26 at 14h 41m 29s.xml">
+      <configuration name="StudentDoubleLinkedListTest.testRemoveListaVazia" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDoubleLinkedListTest_testRemoveLastListaVazia - 2019.09.26 at 14h 41m 57s.xml">
+      <configuration name="StudentDoubleLinkedListTest.testRemoveLastListaVazia" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDoubleLinkedListTest_testRemoveLastListaNaoVazia - 2019.09.26 at 14h 43m 10s.xml">
+      <configuration name="StudentDoubleLinkedListTest.testRemoveLastListaNaoVazia" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDoubleLinkedListTest - 2019.09.26 at 14h 51m 09s.xml">
+      <configuration name="StudentDoubleLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentLinkedListTest - 2019.09.26 at 14h 51m 13s.xml">
+      <configuration name="StudentLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDoubleLinkedListTest - 2019.09.26 at 15h 03m 28s.xml">
+      <configuration name="StudentDoubleLinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentLinkedListTest - 2019.09.26 at 15h 03m 35s.xml">
       <configuration name="StudentLinkedListTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -288,15 +374,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12119535" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2091865" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,18 +400,45 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="só pra tirar essas cores :3" />
+    <option name="LAST_COMMIT_MESSAGE" value="só pra tirar essas cores :3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/adt/Main.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/adt/linkedList/StudentLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveSingleLinkedListImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -343,17 +456,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/linkedList/StudentDoubleLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="388">
+          <caret line="68" column="48" lean-forward="true" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/linkedList/StudentDoubleLinkedListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/StackUnderflowException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveSingleLinkedListImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/StackRecursiveDoubleLinkedListImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="57" column="79" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -48,4 +48,26 @@ public class StudentDoubleLinkedListTest extends StudentLinkedListTest {
 		((DoubleLinkedList<Integer>) lista1).removeLast();
 		Assert.assertArrayEquals(new Integer[] { 3, 2 }, lista1.toArray());
 	}
+
+	@Test
+	public void testRemoveFirstListaVazia() {
+		((DoubleLinkedList<Integer>) lista2).removeFirst();
+		Assert.assertArrayEquals(new Integer[] {}, lista2.toArray());
+
+	}
+
+	@Test
+	public void testRemoveLastListaVazia() {
+		((DoubleLinkedList<Integer>) lista2).removeLast();
+		Assert.assertArrayEquals(new Integer[] {}, lista2.toArray());
+	}
+
+	@Test
+	public void testRemoveLastListaNaoVazia() {
+		((DoubleLinkedList<Integer>) lista2).insert(4);
+		((DoubleLinkedList<Integer>) lista2).removeLast();
+		Assert.assertArrayEquals(new Integer[] {}, lista2.toArray());
+	}
+
+
 }
