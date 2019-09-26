@@ -5,6 +5,7 @@ public class RecursiveDoubleLinkedListImpl<T> extends RecursiveSingleLinkedListI
     protected RecursiveDoubleLinkedListImpl<T> previous;
 
     public RecursiveDoubleLinkedListImpl() {
+        previous = new RecursiveDoubleLinkedListImpl<>(null, this, null);
 
     }
 
@@ -43,22 +44,36 @@ public class RecursiveDoubleLinkedListImpl<T> extends RecursiveSingleLinkedListI
 
     @Override
     public void insertFirst(T element) {
-        if (element != null) {
-            RecursiveDoubleLinkedListImpl<T> head = new RecursiveDoubleLinkedListImpl<>(element, this, new RecursiveDoubleLinkedListImpl<>());
-            this = ;
-
+        if (!isEmpty()) {
+            if (element != null) {
+                RecursiveDoubleLinkedListImpl<T> head = new RecursiveDoubleLinkedListImpl<>(this.data, this.next, this);
+                this.next = head;
+                this.data = element;
+                this.previous = new RecursiveDoubleLinkedListImpl<>(null, this, null);
+            }
+        } else {
+            this.next.insert(element);
         }
-
     }
 
     @Override
     public void removeFirst() {
-
+        if (!isEmpty()) {
+            this.data = this.next.data;
+            this.next = this.next.next;
+        }
     }
 
     @Override
     public void removeLast() {
-
+        if (!isEmpty()) {
+            if (this.next.isEmpty()) {
+                this.previous.next = this.next;
+                ((RecursiveDoubleLinkedListImpl<T>) this.next).previous = this.previous;
+            } else {
+                ((RecursiveDoubleLinkedListImpl<T>)this.next).removeLast();
+            }
+        }
     }
 
     public RecursiveDoubleLinkedListImpl<T> getPrevious() {

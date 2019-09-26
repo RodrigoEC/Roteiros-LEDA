@@ -29,7 +29,7 @@ public class RecursiveSingleLinkedListImpl<T> implements LinkedList<T> {
         if (this.isEmpty()) {
             return 0;
         } else {
-            return 1 + size();
+            return 1 + this.next.size();
         }
 
     }
@@ -84,7 +84,7 @@ public class RecursiveSingleLinkedListImpl<T> implements LinkedList<T> {
     private void toArray(ArrayList<T> arraySaida, RecursiveSingleLinkedListImpl<T> tRecursiveSingleLinkedList) {
         if (!isEmpty()) {
             arraySaida.add(this.data);
-            toArray(arraySaida, this.next);
+            this.next.toArray(arraySaida, this.next);
         }
     }
 
