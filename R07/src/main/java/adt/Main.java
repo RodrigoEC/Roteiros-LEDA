@@ -28,6 +28,7 @@ public class Main {
       //        System.out.println(Arrays.toString(l.toArray()));
 
       System.out.println(db.isEmpty());
+      System.out.println(db.top());
       db.push(6);
       db.push(1);
       db.push(8);
