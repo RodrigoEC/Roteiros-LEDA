@@ -2,7 +2,6 @@ package adt.hashtable.closed;
 
 import java.util.LinkedList;
 
-import util.Util;
 import adt.hashtable.AbstractHashtable;
 
 /**
@@ -15,15 +14,14 @@ import adt.hashtable.AbstractHashtable;
  * AbstractHashtable is only a resource for unifying both kinds of hashtables
  * (closed and open addressing). Thee real hashtables must inherit this class.
  */
-public abstract class AbstractHashtableClosedAddress<T> extends
-		AbstractHashtable<T> {
+public abstract class AbstractHashtableClosedAddress<T> extends AbstractHashtable<T> {
 
-	public AbstractHashtableClosedAddress() {
-		super();
-	}
+   public AbstractHashtableClosedAddress() {
+      super();
+   }
 
-	@Override
-	protected void initiateInternalTable(int size) {
-		this.table = new LinkedList[size];
-	}
+   @Override
+   protected void initiateInternalTable(int size) {
+      this.table = new LinkedList[size];
+   }
 }
