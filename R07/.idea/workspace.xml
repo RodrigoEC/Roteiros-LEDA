@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f9fbf19-bed4-4416-86ce-87d62e0f05d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../InicioR07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../InicioR07/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/118210111-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/118210111-send.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/Main.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +24,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569522983239" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -166,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569522683553</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="its the end">
+      <created>1569535586565</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569535586566</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -206,7 +210,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -216,7 +222,8 @@
     <MESSAGE value="só pra tirar essas cores :3" />
     <MESSAGE value="fim?" />
     <MESSAGE value=" fim? (de novo)" />
-    <option name="LAST_COMMIT_MESSAGE" value=" fim? (de novo)" />
+    <MESSAGE value="its the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="its the end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
