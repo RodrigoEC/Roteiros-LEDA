@@ -11,9 +11,11 @@ public class Main {
         i.insert(48);
         i.insert(10);
 
-        System.out.println(i.search(4));
+//        System.out.println(i.search(4));
 
-        i.remove(4);
-        System.out.println(i.search(4));
+        i.remove(15);
+        i.insert(15);
+//        System.out.println(i.search(4));
+        System.out.println(i.getCOLLISIONS());
     }
 }
