@@ -75,7 +75,7 @@ public class HashtableClosedAddressImpl<T> extends
 			if (this.table[i] == null) {
 				this.table[i] = new LinkedList<>();
 
-			} else if (((LinkedList<T>) this.table[i]).size() > 1){
+			} else {
 				this.COLLISIONS++;
 			}
 
@@ -95,6 +95,9 @@ public class HashtableClosedAddressImpl<T> extends
 				}
 				this.elements--;
 				((LinkedList<T>) this.table[i]).remove(element);
+				if (((LinkedList<T>) this.table[i]).size() == 0) {
+					this.table[i] = null;
+				}
 			}
 
 		}
