@@ -16,7 +16,7 @@ public class QueueImpl<T> implements Queue<T> {
 	@Override
 	public T head() {
 		T resultado;
-		if (tail == - 1) {
+		if (tail == -1) {
 			resultado =  null;
 		} else {
 			resultado = array[0];

@@ -9,6 +9,7 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 	public DoubleLinkedListImpl() {
 		this.last = new DoubleLinkedListNode<>();
 	}
+
 	@Override
 	public void insert(T element) {
 		if (element != null) {

@@ -21,9 +21,11 @@ public class RecursiveDoubleLinkedListImpl<T> extends
 	public void remove(T element) {
 		if (!isEmpty() && element != null) {
 			if (element.equals(this.data)) {
-				((RecursiveDoubleLinkedListImpl)this.next).previous = this.previous;
 				this.data = this.next.data;
 				this.next = this.next.next;
+				if (this.next != null) {
+					((RecursiveDoubleLinkedListImpl<T>)this.next).setPrevious(this);
+				}
 			} else {
 				this.next.remove(element);
 			}
