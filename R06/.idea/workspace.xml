@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea67199-4c49-4cba-8bcd-961265b94d03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../R05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R05/target/classes/adt/queue/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/target/classes/adt/queue/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R07/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RR2/R01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RR2/R01/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +35,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569271012329" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R07" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -47,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentLinkedListTest">
+  <component name="RunManager" selected="JUnit.StudentDoubleLinkedListTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adt.Main" />
       <module name="submission" />
@@ -125,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentLinkedListTest" />
         <item itemvalue="JUnit.StudentDoubleLinkedListTest" />
+        <item itemvalue="JUnit.StudentLinkedListTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.StudentDoubleLinkedListTest.testRemoveLast" />
         <item itemvalue="JUnit.StudentDoubleLinkedListTest.testInserrtFirst" />
@@ -170,16 +176,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="termino do R06" />
     <option name="LAST_COMMIT_MESSAGE" value="termino do R06" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/adt/linkedList/DoubleLinkedListImpl.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

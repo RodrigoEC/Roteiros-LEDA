@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f9fbf19-bed4-4416-86ce-87d62e0f05d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../R05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R05/target/classes/adt/queue/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/target/classes/adt/queue/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R06/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R06/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RR2/R01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RR2/R01/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +30,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569522983239" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pre_R08" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -38,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.StudentDoubleLinkedListTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adt.Main" />
       <module name="submission" />
@@ -123,9 +129,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.StudentLinkedListTest" />
         <item itemvalue="JUnit.StudentDoubleLinkedListTest" />
+        <item itemvalue="JUnit.StudentLinkedListTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.StudentDoubleLinkedListTest.testRemoveLastListaNaoVazia" />
         <item itemvalue="JUnit.StudentDoubleLinkedListTest.testRemoveLastListaVazia" />
       </list>
@@ -173,38 +179,6 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="StudentLinkedListTest - 2019.09.26 at 14h 16m 37s.xml">
-      <configuration name="StudentLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDoubleLinkedListTest - 2019.09.26 at 14h 20m 16s.xml">
-      <configuration name="StudentDoubleLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDoubleLinkedListTest_testRemoveListaVazia - 2019.09.26 at 14h 41m 18s.xml">
-      <configuration name="StudentDoubleLinkedListTest.testRemoveListaVazia" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDoubleLinkedListTest_testRemoveListaVazia - 2019.09.26 at 14h 41m 29s.xml">
-      <configuration name="StudentDoubleLinkedListTest.testRemoveListaVazia" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDoubleLinkedListTest_testRemoveLastListaVazia - 2019.09.26 at 14h 41m 57s.xml">
-      <configuration name="StudentDoubleLinkedListTest.testRemoveLastListaVazia" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDoubleLinkedListTest_testRemoveLastListaNaoVazia - 2019.09.26 at 14h 43m 10s.xml">
-      <configuration name="StudentDoubleLinkedListTest.testRemoveLastListaNaoVazia" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDoubleLinkedListTest - 2019.09.26 at 14h 51m 09s.xml">
-      <configuration name="StudentDoubleLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentLinkedListTest - 2019.09.26 at 14h 51m 13s.xml">
-      <configuration name="StudentLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDoubleLinkedListTest - 2019.09.26 at 15h 03m 28s.xml">
-      <configuration name="StudentDoubleLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentLinkedListTest - 2019.09.26 at 15h 03m 35s.xml">
-      <configuration name="StudentLinkedListTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -224,27 +198,6 @@
     <MESSAGE value=" fim? (de novo)" />
     <MESSAGE value="its the end" />
     <option name="LAST_COMMIT_MESSAGE" value="its the end" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

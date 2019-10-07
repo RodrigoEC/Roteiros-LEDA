@@ -50,7 +50,7 @@ public class CircularQueue<T> implements Queue<T> {
 			throw new QueueUnderflowException();
 		}
 
-		return  resultado;
+		return resultado;
 	}
 
 	@Override
