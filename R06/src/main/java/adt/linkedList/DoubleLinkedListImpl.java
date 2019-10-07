@@ -35,7 +35,7 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 
 			DoubleLinkedListNode<T> newHead = new DoubleLinkedListNode<T>(element, next, previous);
 
-			((DoubleLinkedListNode<T>) this.head).previous = new DoubleLinkedListNode<>();
+			((DoubleLinkedListNode<T>) this.head).previous = newHead;
 
 			if (this.head.isNIL()) {
 				this.last = newHead;
@@ -50,8 +50,6 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 		if (!this.isEmpty()) {
 			if (!this.head.isNIL()) {
 				this.head = head.next;
-			} else {
-				this.last = (DoubleLinkedListNode<T>) this.head;
 			}
 
 			((DoubleLinkedListNode<T>) this.head).previous = new DoubleLinkedListNode<T>();

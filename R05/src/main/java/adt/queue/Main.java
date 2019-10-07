@@ -12,6 +12,7 @@ public class Main {
         queue3.push(23);
         queue3.push(2);
         queue3.push(4);
+        queue3.pop();
 
         System.out.println(queue3.top());
         System.out.println(queue3.isEmpty());

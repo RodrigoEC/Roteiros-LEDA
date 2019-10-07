@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5f9fbf19-bed4-4416-86ce-87d62e0f05d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../R05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/CircularQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/QueueImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R05/target/classes/adt/queue/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/target/classes/adt/queue/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R06/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R06/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RR2/R01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RR2/R01/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +30,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569522983239" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R05" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pre_R08" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,27 +198,6 @@
     <MESSAGE value=" fim? (de novo)" />
     <MESSAGE value="its the end" />
     <option name="LAST_COMMIT_MESSAGE" value="its the end" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

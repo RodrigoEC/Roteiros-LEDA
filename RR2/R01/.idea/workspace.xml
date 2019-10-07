@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e73c86e-eba6-4232-94cb-8027b3bf7f23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../R02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../R02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../R03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../R03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../R05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../R05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../R05/src/main/java/adt/queue/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../R05/src/main/java/adt/queue/CircularQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../R05/src/main/java/adt/queue/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../R05/src/main/java/adt/queue/QueueImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../R06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../R06/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../R06/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../R06/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../R07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../R07/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../R07/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../R07/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="rodrigoec &lt;rodrigo.cavalcanti@ccc.ufcg.edu.br&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/../.." value="master" />
@@ -55,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Listas/ListaExercicio1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -124,6 +120,14 @@
       <workItem from="1568638064675" duration="380000" />
       <workItem from="1568660000675" duration="109000" />
     </task>
+    <task id="LOCAL-00001" summary="dw">
+      <created>1570368235563</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570368235563</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -145,11 +149,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dw" />
+    <option name="LAST_COMMIT_MESSAGE" value="dw" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
