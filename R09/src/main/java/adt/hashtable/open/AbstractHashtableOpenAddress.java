@@ -1,7 +1,6 @@
-package main.java.adt.hashtable.open;
+package adt.hashtable.open;
 
-import main.java.util.Util;
-import main.java.adt.hashtable.AbstractHashtable;
+import adt.hashtable.AbstractHashtable;
 
 public abstract class AbstractHashtableOpenAddress<T extends Storable> extends
 		AbstractHashtable<T> {
@@ -11,10 +10,11 @@ public abstract class AbstractHashtableOpenAddress<T extends Storable> extends
 
 	public AbstractHashtableOpenAddress(int size) {
 		this.tableSize = size;
+		this.initiateInternalTable(size);
 	}
 
 	@Override
 	protected void initiateInternalTable(int size) {
-		this.table = Util.<Storable> makeArray(size);
+		this.table = new Storable[size];
 	}
 }

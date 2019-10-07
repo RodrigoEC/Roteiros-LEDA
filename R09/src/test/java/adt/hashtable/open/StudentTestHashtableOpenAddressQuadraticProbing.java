@@ -1,14 +1,14 @@
-package test.java.adt.hashtable.open;
+package adt.hashtable.open;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import main.java.adt.hashtable.hashfunction.HashFunctionClosedAddressMethod;
-import main.java.adt.hashtable.open.AbstractHashtableOpenAddress;
-import main.java.adt.hashtable.open.HashtableOpenAddressQuadraticProbingImpl;
-import main.java.adt.hashtable.open.HashtableElement;
+import adt.hashtable.hashfunction.HashFunctionClosedAddressMethod;
+import adt.hashtable.open.AbstractHashtableOpenAddress;
+import adt.hashtable.open.HashtableOpenAddressQuadraticProbingImpl;
+import adt.hashtable.open.HashtableElement;
 
 public class StudentTestHashtableOpenAddressQuadraticProbing {
 	protected AbstractHashtableOpenAddress<HashtableElement> table1;

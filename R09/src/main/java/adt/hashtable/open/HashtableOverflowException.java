@@ -1,4 +1,4 @@
-package main.java.adt.hashtable.open;
+package adt.hashtable.open;
 
 public class HashtableOverflowException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package main.java.adt.hashtable.open;
+package adt.hashtable.open;
 
 public interface Storable {
 

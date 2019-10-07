@@ -1,4 +1,4 @@
-package main.java.util;
+package util;
 
 /**
  * Class containing useful methods for arrays manipulation.
@@ -25,21 +25,6 @@ public class Util {
 	}
 
 	/**
-	 * Creates a generic array of the specified size.
-	 * <p>
-	 * Ex.: {@code Util.<Integer>makeArray(10);}
-	 *
-	 * @param size
-	 *            The desired size
-	 * @return An array of the type and size chosen
-	 */
-	public static <T> T[] makeArray(int size) {
-		@SuppressWarnings("unchecked")
-		T[] array = (T[]) new Object[size];
-		return array;
-	}
-
-	/**
 	 * It says if a specific number is prime or not.
 	 * 
 	 * @param n
@@ -47,8 +32,11 @@ public class Util {
 	 */
 	public static boolean isPrime(long n) {
 		boolean result = true;
-		for (int i = 2; i <= n / 2 && result; i++) {
-			result = result && (n % i != 0);
+		for (int i = 2; i < n; i++) {
+			if (n % i == 0){
+				result = false;
+				break;
+			}
 		}
 		return result;
 	}

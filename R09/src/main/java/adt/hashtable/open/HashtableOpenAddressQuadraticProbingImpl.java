@@ -1,13 +1,14 @@
+package adt.hashtable.open;
 
-package main.java.adt.hashtable.open;
+import adt.hashtable.hashfunction.HashFunctionClosedAddressMethod;
+import adt.hashtable.hashfunction.HashFunctionOpenAddress;
+import adt.hashtable.hashfunction.HashFunctionQuadraticProbing;
 
-import main.java.adt.hashtable.hashfunction.HashFunctionClosedAddressMethod;
-import main.java.adt.hashtable.hashfunction.HashFunctionOpenAddress;
-import main.java.adt.hashtable.hashfunction.HashFunctionQuadraticProbing;
+public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
+		extends AbstractHashtableOpenAddress<T> {
 
-public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable> extends AbstractHashtableOpenAddress<T> {
-
-	public HashtableOpenAddressQuadraticProbingImpl(int size, HashFunctionClosedAddressMethod method, int c1, int c2) {
+	public HashtableOpenAddressQuadraticProbingImpl(int size,
+			HashFunctionClosedAddressMethod method, int c1, int c2) {
 		super(size);
 		hashFunction = new HashFunctionQuadraticProbing<T>(size, method, c1, c2);
 		this.initiateInternalTable(size);
@@ -19,13 +20,13 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable> extend
 			throw new HashtableOverflowException();
 		}
 
-		if (element != null && !this.isFull() && this.search(element) == null) {
+		if (element != null && this.search(element) == null) {
 			this.elements++;
 			boolean swapping = false;
-			int contador = 0;
+			int probe = 0;
 
 			while (!swapping) {
-				int i = hashFunction(element, contador);
+				int i = hashFunction(element, probe);
 
 				if (table[i] != null && !this.deletedElement.equals(this.table[i])) {
 					super.COLLISIONS++;
@@ -34,82 +35,82 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable> extend
 					this.table[i] = element;
 					swapping = true;
 				}
-				contador++;
+				probe++;
 			}
 
 		}
 	}
 
-		@Override
-		public void remove(T element) {
-			if (element != null && this.search(element) != null && this.capacity() > 0) {
-				this.elements--;
+	@Override
+	public void remove(T element) {
 
-				boolean swapping = false;
-				int contador = 0;
+		if (element != null && this.search(element) != null && this.capacity() > 0) {
+			this.elements--;
+			boolean swapping = false;
+			int probe = 0;
 
 
-				while(!swapping) {
-					int i = hashFunction(element, contador);
+			while(!swapping) {
+				int i = hashFunction(element, probe);
 
-					if (this.table[i] != null) {
-						if (element.equals(this.table[i])) {
-							this.table[i] = super.deletedElement;
-							swapping = true;
-						} else if (contador > 0) {
-							this.COLLISIONS--;
-						}
+				if (this.table[i] != null) {
+					if (element.equals(this.table[i])) {
+						this.table[i] = super.deletedElement;
+						swapping = true;
+
+					} else if (probe > 0) {
+						this.COLLISIONS--;
 					}
-					contador++;
 				}
+				probe++;
 			}
-
 		}
 
-		@Override
-		public T search(T element) {
-			T resultado = null;
+	}
 
-			if (element != null && this.capacity() > 0) {
-				int contador = 0;
+	@Override
+	public T search(T element) {
+		T resultado = null;
 
-				while(contador < this.capacity() && resultado == null) {
-					int i = hashFunction(element, contador);
+		if (element != null && this.capacity() > 0) {
+			int probe = 0;
 
-					if (this.table[i] != null) {
-						if (element.equals(this.table[i])) {
-							resultado = element;
-						}
+			while(probe < this.capacity() && resultado == null) {
+				int i = hashFunction(element, probe);
+
+				if (this.table[i] != null) {
+					if (element.equals(this.table[i])) {
+						resultado = element;
 					}
-					contador++;
 				}
+				probe++;
 			}
-
-			return resultado;
 		}
 
-		@Override
-		public int indexOf(T element) {
-			int resultado = -1;
+		return resultado;
+	}
 
-			if (element != null && this.capacity() > 0 && this.search(element) != null) {
-				int contador = 0;
+	@Override
+	public int indexOf(T element) {
+		int resultado = -1;
 
-				while (contador < this.capacity() && resultado == -1) {
-					int i = hashFunction(element, contador);
+		if (element != null && this.capacity() > 0 && this.search(element) != null) {
+			int probe = 0;
 
-					if (this.table[i] != null) {
-						if (element.equals(this.table[i])) {
-							resultado = i;
-						}
+			while (probe < this.capacity() && resultado == -1) {
+				int i = hashFunction(element, probe);
+
+				if (this.table[i] != null) {
+					if (element.equals(this.table[i])) {
+						resultado = i;
 					}
-					contador++;
 				}
+				probe++;
 			}
-			return resultado;
 		}
+		return resultado;
+	}
 	private int hashFunction(T element, int probe) {
-		int hashIndex = ((HashFunctionOpenAddress<T>) super.hashFunction).hash(element, probe);
-		return hashIndex;
+		return ((HashFunctionOpenAddress<T>) super.hashFunction).hash(element, probe);
 	}
 }

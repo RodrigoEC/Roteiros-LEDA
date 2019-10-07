@@ -1,9 +1,6 @@
-package main.java.adt.hashtable;
+package adt.hashtable;
 
-import main.java.adt.hashtable.hashfunction.HashFunction;
-import main.java.util.Util;
-import main.java.util.Util;
-import main.java.adt.hashtable.hashfunction.HashFunction;
+import adt.hashtable.hashfunction.HashFunction;
 
 /**
  * It represents an abstract implementation of a hashtable, with some internal
@@ -18,10 +15,8 @@ import main.java.adt.hashtable.hashfunction.HashFunction;
 public abstract class AbstractHashtable<T> implements Hashtable<T> {
 
 	protected Object[] table; // the internal table
-	protected int elements; // the number of elements inserted into the hash
-							// table
-	protected int COLLISIONS; // the number of collisions occurred in this
-								// hashtable
+	protected int elements; // the number of elements inserted into the hash table
+	protected int COLLISIONS; // the number of collisions occurred in this hashtable
 	protected HashFunction<T> hashFunction; // the hash function used by this
 											// hashtable.
 
@@ -31,7 +26,7 @@ public abstract class AbstractHashtable<T> implements Hashtable<T> {
 	}
 
 	protected void initiateInternalTable(int size) {
-		this.table = Util.<T> makeArray(size);
+		this.table = new Object[size];
 	}
 
 	@Override

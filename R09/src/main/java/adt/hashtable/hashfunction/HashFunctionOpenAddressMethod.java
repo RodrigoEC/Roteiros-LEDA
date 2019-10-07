@@ -1,4 +1,4 @@
-package main.java.adt.hashtable.hashfunction;
+package adt.hashtable.hashfunction;
 
 /**
  * The kind of method used by a hash function for open addressing.

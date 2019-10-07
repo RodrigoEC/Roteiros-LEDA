@@ -1,4 +1,4 @@
-package main.java.adt.hashtable.hashfunction;
+package adt.hashtable.hashfunction;
 
 /**
  * It represents a generic hash function that will be used by a hashtable to

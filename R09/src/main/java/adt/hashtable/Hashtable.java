@@ -1,4 +1,4 @@
-package main.java.adt.hashtable;
+package adt.hashtable;
 
 /**
  * The interface of a generic hash table. It keeps values of type T. The table

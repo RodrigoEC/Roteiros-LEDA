@@ -1,4 +1,4 @@
-package main.java.adt.hashtable.hashfunction;
+package adt.hashtable.hashfunction;
 
 public class HashFunctionLinearProbing<T> implements HashFunctionOpenAddress<T> {
 
