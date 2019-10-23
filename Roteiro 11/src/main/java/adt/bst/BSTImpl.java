@@ -75,9 +75,9 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
          ;
       } else {
          if (element.compareTo(node.getData()) < 0) {
-            insert((BSTNode<T>) node.getLeft(), element);
+            insert(getLeft(node), element);
          } else if (element.compareTo(node.getData()) > 0) {
-            insert((BSTNode<T>) node.getRight(), element);
+            insert(getRight(node), element);
          }
       }
    }
@@ -95,7 +95,7 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
          resultado = node;
 
          while (!resultado.getRight().isEmpty()) {
-            resultado = (BSTNode<T>) resultado.getRight();
+            resultado = getRight(resultado);
          }
       }
       return resultado;
@@ -115,7 +115,7 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
          resultado = node;
 
          while (!resultado.getLeft().isEmpty()) {
-            resultado = (BSTNode<T>) resultado.getLeft();
+            resultado = getLeft(resultado);
          }
       }
       return resultado;
@@ -129,6 +129,7 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
             resultado = minimum(getRight(resultado));
          } else {
             BSTNode<T> anterior = getParent(resultado);
+
             while (anterior != null && menorQue(anterior, resultado)) {
                resultado = anterior;
                anterior = getParent(anterior);
@@ -148,7 +149,7 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
       BSTNode<T> resultado = null;
       BSTNode<T> elemNode = search(element);
 
-      if (element != null) {
+      if (!elemNode.isEmpty()) {
          resultado = maximum(getLeft(elemNode));
          if (resultado == null) {
             resultado = getParent(elemNode);
@@ -169,12 +170,14 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
    public void remove(T element) {
       BSTNode<T> node = search(element);
 
-      if (node.isLeaf()) {
-         node.setData(null);
-      } else if (hasOneChild(node)) {
-         removeOneChild(node);
-      } else {
-         removeTwoChildren(node);
+      if (element != null && !node.isEmpty()) {
+         if (node.isLeaf()) {
+            node.setData(null);
+         } else if (hasOneChild(node)) {
+            removeOneChild(node);
+         } else {
+            removeTwoChildren(node);
+         }
       }
    }
 
@@ -232,8 +235,8 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
    private int preOrder(BSTNode<T> node, T[] arraySaida, int index) {
       if (!node.isEmpty()) {
          arraySaida[index++] = node.getData();
-         index = preOrder((BSTNode<T>) node.getLeft(), arraySaida, index);
-         index = preOrder((BSTNode<T>) node.getRight(), arraySaida, index);
+         index = preOrder(getLeft(node), arraySaida, index);
+         index = preOrder(getRight(node), arraySaida, index);
       }
       return index;
    }
@@ -248,9 +251,9 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 
    private int order(BSTNode<T> node, T[] arraySaida, int index) {
       if (!node.isEmpty()) {
-         index = order((BSTNode<T>) node.getLeft(), arraySaida, index);
+         index = order(getLeft(node), arraySaida, index);
          arraySaida[index++] = node.getData();
-         index = order((BSTNode<T>) node.getRight(), arraySaida, index);
+         index = order(getRight(node), arraySaida, index);
       }
       return index;
    }
@@ -265,8 +268,8 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 
    private int postOrder(BSTNode<T> node, T[] arraySaida, int index) {
       if (!node.isEmpty()) {
-         index = postOrder((BSTNode<T>) node.getLeft(), arraySaida, index);
-         index = postOrder((BSTNode<T>) node.getRight(), arraySaida, index);
+         index = postOrder(getLeft(node), arraySaida, index);
+         index = postOrder(getRight(node), arraySaida, index);
          arraySaida[index++] = node.getData();
       }
       return index;

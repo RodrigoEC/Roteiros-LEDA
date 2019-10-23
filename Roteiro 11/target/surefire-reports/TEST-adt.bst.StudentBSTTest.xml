@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="adt.bst.StudentBSTTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="adt.bst.StudentBSTTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="12.0.2+10"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-12-oracle/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/rodrigo/Documentos/CC/LEDA e EDA/Roteiros-LEDA/R11"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/rodrigo/Documentos/CC/LEDA e EDA/Roteiros-LEDA/Roteiro 11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -13,7 +13,7 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/rodrigo/Documentos/CC/LEDA e EDA/Roteiros-LEDA/R11"/>
+    <property name="user.dir" value="/home/rodrigo/Documentos/CC/LEDA e EDA/Roteiros-LEDA/Roteiro 11"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
@@ -61,9 +61,9 @@
   </properties>
   <testcase classname="adt.bst.StudentBSTTest" name="testSucessorPredecessor" time="0.003"/>
   <testcase classname="adt.bst.StudentBSTTest" name="testInit" time="0"/>
-  <testcase classname="adt.bst.StudentBSTTest" name="testSize" time="0.001"/>
-  <testcase classname="adt.bst.StudentBSTTest" name="testHeight" time="0"/>
-  <testcase classname="adt.bst.StudentBSTTest" name="testMinMax" time="0.001"/>
+  <testcase classname="adt.bst.StudentBSTTest" name="testSize" time="0"/>
+  <testcase classname="adt.bst.StudentBSTTest" name="testHeight" time="0.001"/>
+  <testcase classname="adt.bst.StudentBSTTest" name="testMinMax" time="0"/>
   <testcase classname="adt.bst.StudentBSTTest" name="testRemove" time="0"/>
   <testcase classname="adt.bst.StudentBSTTest" name="testSearch" time="0"/>
 </testsuite>
