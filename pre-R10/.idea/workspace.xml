@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c37046f8-a370-4f9b-8598-ad1a681ea757" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pre-R10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/AbstractHashtable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/Hashtable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionClosedAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionClosedAddressMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionDivisionMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionLinearProbing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionMultiplicationMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionOpenAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionOpenAddressMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionQuadraticProbing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/open/AbstractHashtableOpenAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/open/DELETED.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/open/HashtableElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/open/HashtableOverflowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/adt/hashtable/open/Storable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/main/java/util/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressLinearProbing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pre-R10/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressQuadraticProbing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/AbstractHashtable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/Hashtable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/hashfunction/HashFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/hashfunction/HashFunctionClosedAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/hashfunction/HashFunctionClosedAddressMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/hashfunction/HashFunctionDivisionMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/hashfunction/HashFunctionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/hashfunction/HashFunctionLinearProbing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/hashfunction/HashFunctionMultiplicationMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/hashfunction/HashFunctionOpenAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/hashfunction/HashFunctionOpenAddressMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/hashfunction/HashFunctionQuadraticProbing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/AbstractHashtableOpenAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/DELETED.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/HashtableOverflowException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/hashtable/open/Storable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressLinearProbing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressQuadraticProbing.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1RsCxyxHAzVFWLX1CGaPgRe0Glf" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R09" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.StudentTestHashtableOpenAddressQuadraticProbing">
+    <configuration name="StudentTestHashtableOpenAddressLinearProbing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pre-R10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.adt.hashtable.open.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.adt.hashtable.open" />
+      <option name="MAIN_CLASS_NAME" value="test.java.adt.hashtable.open.StudentTestHashtableOpenAddressLinearProbing" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTestHashtableOpenAddressLinearProbing.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pre-R10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.adt.hashtable.open.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.adt.hashtable.open" />
+      <option name="MAIN_CLASS_NAME" value="test.java.adt.hashtable.open.StudentTestHashtableOpenAddressLinearProbing" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTestHashtableOpenAddressQuadraticProbing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pre-R10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.adt.hashtable.open.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.adt.hashtable.open" />
+      <option name="MAIN_CLASS_NAME" value="test.java.adt.hashtable.open.StudentTestHashtableOpenAddressQuadraticProbing" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StudentTestHashtableOpenAddressQuadraticProbing" />
+        <item itemvalue="JUnit.StudentTestHashtableOpenAddressLinearProbing" />
+        <item itemvalue="JUnit.StudentTestHashtableOpenAddressLinearProbing.testInsert" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c37046f8-a370-4f9b-8598-ad1a681ea757" name="Default Changelist" comment="" />
+      <created>1570446666641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570446666641</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressLinearProbing.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
