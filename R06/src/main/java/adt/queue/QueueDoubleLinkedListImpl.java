@@ -35,6 +35,7 @@ public class QueueDoubleLinkedListImpl<T> implements Queue<T> {
 		} else {
 			T elemento = this.head();
 			this.list.removeFirst();
+			this.tamanhoAtual--;
 			return elemento;
 		}
 	}

@@ -111,7 +111,7 @@ public class HashtableClosedAddressImpl<T> extends
 			int i = ((HashFunctionClosedAddress) this.hashFunction).hash(element);
 
 
-			if (this.table[i] != null) {
+			if (this.table[i] != null)
 				for (T elemento: ((LinkedList<T>)table[i])) {
 					if (elemento.equals(element)) {
 						result = elemento;

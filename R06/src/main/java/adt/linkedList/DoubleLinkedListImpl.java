@@ -8,6 +8,8 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 
 	public DoubleLinkedListImpl() {
 		this.last = new DoubleLinkedListNode<>();
+		super.head = new DoubleLinkedListImpl<>();
+
 	}
 
 	@Override
@@ -43,6 +45,7 @@ public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 
 			this.head = newHead;
 		}
+
 	}
 
 	@Override

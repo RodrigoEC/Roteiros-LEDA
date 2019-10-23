@@ -39,6 +39,18 @@ public class Main {
 
         System.out.println(Arrays.toString(s.toArray()));
 
+        s.concatenate(null);
+        s.intersection(s2);
+
+        System.out.println(Arrays.toString(s.intersection(null).toArray()));
+
+        System.out.println(Arrays.toString(s.union(s2).toArray()));
+
+        SetLinkedListImpl<Integer> s3 = new SetLinkedListImpl<>();
+
+        System.out.println(Arrays.toString(((SetLinkedListImpl) s.union(s3)).toArray()));
+        s2.insert(0);
+        System.out.println(Arrays.toString(((SetLinkedListImpl) s.union(s2)).toArray()));
 
 
 

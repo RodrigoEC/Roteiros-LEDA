@@ -2,13 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f9fbf19-bed4-4416-86ce-87d62e0f05d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adt/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/src/main/java/adt/queue/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R05/target/classes/adt/queue/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/target/classes/adt/queue/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R06/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R06/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R06/src/main/java/adt/queue/QueueDoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06/src/main/java/adt/queue/QueueDoubleLinkedListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RR2/R01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RR2/R01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R08/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R08/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R09/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10/118210111-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/../R10/118210111-send.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R10/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10/src/main/java/SetLinkedListImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10/src/main/java/adt/linkedList/set/SetLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R10/src/main/java/adt/linkedList/set/SetLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10/src/main/java/test/SetLinkedListImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10/target/118210111.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../R10/target/118210111.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R10/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10/target/classes/adt/linkedList/SingleLinkedListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R10/target/classes/adt/linkedList/SingleLinkedListImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10/target/classes/adt/linkedList/set/SetLinkedListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R10/target/classes/adt/linkedList/set/SetLinkedListImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../R10/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R10/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../R10/target/submission-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/.idea/pre-R10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/AbstractHashtable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/Hashtable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionClosedAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionClosedAddressMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionDivisionMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionLinearProbing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionMultiplicationMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionOpenAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionOpenAddressMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionQuadraticProbing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/open/AbstractHashtableOpenAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/open/DELETED.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/open/HashtableElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/open/HashtableOverflowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/open/Storable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/util/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressLinearProbing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressQuadraticProbing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/AbstractHashtable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/Hashtable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionClosedAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionClosedAddressMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionDivisionMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionLinearProbing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionMultiplicationMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionOpenAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionOpenAddressMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionQuadraticProbing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/open/AbstractHashtableOpenAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/open/DELETED.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/open/HashtableElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/open/HashtableOverflowException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/open/Storable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/util/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressLinearProbing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressQuadraticProbing.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +97,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569522983239" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pre_R08" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R08" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentDoubleLinkedListTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adt.Main" />
       <module name="submission" />
@@ -129,9 +196,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentDoubleLinkedListTest" />
-        <item itemvalue="JUnit.StudentLinkedListTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StudentLinkedListTest" />
+        <item itemvalue="JUnit.StudentDoubleLinkedListTest" />
         <item itemvalue="JUnit.StudentDoubleLinkedListTest.testRemoveLastListaNaoVazia" />
         <item itemvalue="JUnit.StudentDoubleLinkedListTest.testRemoveLastListaVazia" />
       </list>
@@ -198,6 +265,17 @@
     <MESSAGE value=" fim? (de novo)" />
     <MESSAGE value="its the end" />
     <option name="LAST_COMMIT_MESSAGE" value="its the end" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

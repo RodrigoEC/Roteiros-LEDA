@@ -2,103 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73dd1fe9-6bff-4875-94a2-3d55301a8beb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../R07/src/main/java/adt/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R05/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../R06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R06/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R06/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06/src/main/java/adt/linkedList/DoubleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R06/src/main/java/adt/queue/QueueDoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R06/src/main/java/adt/queue/QueueDoubleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R07/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R07/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R07/src/main/java/adt/linkedList/RecursiveDoubleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R08/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R08/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R08/src/main/java/adt/hashtable/closed/HashtableClosedAddressImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R09/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/118210111-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/118210111-send.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SetLinkedListImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/SetLinkedListImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/118210111.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/118210111.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/linkedList/SingleLinkedListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/linkedList/SingleLinkedListImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/linkedList/set/SetLinkedListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/linkedList/set/SetLinkedListImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/submission-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/.idea/pre-R10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/AbstractHashtable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/Hashtable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionClosedAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionClosedAddressMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionDivisionMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionLinearProbing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionMultiplicationMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionOpenAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionOpenAddressMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/hashfunction/HashFunctionQuadraticProbing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/open/AbstractHashtableOpenAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/open/DELETED.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/open/HashtableElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/open/HashtableOverflowException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/adt/hashtable/open/Storable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/main/java/util/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressLinearProbing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/out/production/pre-R10/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressQuadraticProbing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/AbstractHashtable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/Hashtable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionClosedAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionClosedAddressMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionDivisionMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionLinearProbing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionMultiplicationMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionOpenAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionOpenAddressMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/hashfunction/HashFunctionQuadraticProbing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/open/AbstractHashtableOpenAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/open/DELETED.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/open/HashtableElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/open/HashtableOverflowException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/adt/hashtable/open/Storable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/main/java/util/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressLinearProbing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pre-R10/src/test/java/adt/hashtable/open/StudentTestHashtableOpenAddressQuadraticProbing.java" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1302123653">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1530" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1530" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedListImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SetLinkedListImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/SingleLinkedListImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,74 +94,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/adt/linkedList/SingleLinkedListImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/adt/linkedList/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SetLinkedListImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedListImpl.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="927" />
-    <option name="height" value="1055" />
-  </component>
+  <component name="ProjectId" id="1S1yntBgmeWSey1LUgGCmT4M3n6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570732016736" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R06" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -209,6 +130,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="test.SetLinkedListImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -237,119 +159,18 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="SetLinkedListImplTest - 2019.10.10 at 15h 11m 38s.xml">
-      <configuration name="SetLinkedListImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetLinkedListImplTest - 2019.10.10 at 15h 12m 33s.xml">
-      <configuration name="SetLinkedListImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetLinkedListImplTest - 2019.10.10 at 15h 22m 12s.xml">
-      <configuration name="SetLinkedListImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SetLinkedListImplTest - 2019.10.10 at 15h 23m 14s.xml">
-      <configuration name="SetLinkedListImplTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32972974" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedListImpl.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/SingleLinkedListImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SetLinkedListImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedListImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>

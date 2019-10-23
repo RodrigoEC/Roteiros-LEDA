@@ -78,7 +78,7 @@ public class RecursiveDoubleLinkedListImpl<T> extends
 		if (!isEmpty()) {
 			if (this.next.isEmpty()) {
 				this.data = null;
-				this.next = new RecursiveDoubleLinkedListImpl<>();
+				this.next = null;
 			} else {
 				((RecursiveDoubleLinkedListImpl<T>)this.next).removeLast();
 			}
