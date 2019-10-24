@@ -42,7 +42,7 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 		ArrayList<T> lista =  new ArrayList<>();
 
 		if (!this.isEmpty()) {
-			reverseOrder(root, lista);
+			reverseOrder(this.root, lista);
 		}
 
 		return lista.toArray(arraySaida);
