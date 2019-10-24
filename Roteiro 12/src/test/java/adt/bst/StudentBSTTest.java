@@ -9,8 +9,6 @@ import org.junit.Test;
 import adt.bst.BSTImpl;
 import adt.bt.BTNode;
 
-import java.util.Comparator;
-
 public class StudentBSTTest {
 
 	private BSTImpl<Integer> tree;

@@ -303,5 +303,3 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 		return (BSTNode<T>) node.getParent();
 	}
 }
-
-

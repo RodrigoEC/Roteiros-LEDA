@@ -2,17 +2,15 @@ package adt.bst.extended;
 
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.List;
 
 import adt.bst.BSTImpl;
 import adt.bst.BSTNode;
-import adt.bt.BTNode;
 
 /**
  * Implementacao de SortComparatorBST, uma BST que usa um comparator interno em suas funcionalidades
  * e possui um metodo de ordenar um array dado como parametro, retornando o resultado do percurso
- * desejado que produz o array ordenado. 
- * 
+ * desejado que produz o array ordenado.
+ *
  * @author Adalberto
  *
  * @param <T>
@@ -20,7 +18,7 @@ import adt.bt.BTNode;
 public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> implements SortComparatorBST<T> {
 
 	private Comparator<T> comparator;
-	
+
 	public SortComparatorBSTImpl(Comparator<T> comparator) {
 		super();
 		this.comparator = comparator;
@@ -119,5 +117,5 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 	public void setComparator(Comparator<T> comparator) {
 		this.comparator = comparator;
 	}
-	
+
 }
