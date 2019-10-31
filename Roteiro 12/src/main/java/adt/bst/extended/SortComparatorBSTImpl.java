@@ -24,6 +24,7 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 		this.comparator = comparator;
 	}
 
+	
 	@Override
 	public T[] sort(T[] array) {
 		this.root = new BSTNode<>();
