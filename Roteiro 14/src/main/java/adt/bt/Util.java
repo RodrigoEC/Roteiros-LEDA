@@ -11,12 +11,28 @@ public class Util {
 	 * @return
 	 */
 	public static <T extends Comparable<T>> BSTNode<T> leftRotation(BSTNode<T> node) {
-		BSTNode<T> pivot =  (BSTNode<T>) node.getRight();
-		node.setRight(pivot.getRight());
+		BSTNode<T> result = null;
 
-		pivot.setLeft(node);
 
-		return (BSTNode<T>) node.getRight();
+		if (node != null && !node.isEmpty()) {
+			BSTNode<T> pivot =  (BSTNode<T>) node.getRight();
+			node.setRight(pivot.getLeft());
+			node.getRight().setParent(node);
+
+			pivot.setParent(node.getParent());
+			pivot.setLeft(node);
+			node.setParent(pivot);
+			if (pivot.getParent() != null) {
+				if (pivot.getParent().getData().compareTo(pivot.getData()) > 0) {
+					pivot.getParent().setLeft(pivot);
+				} else {
+					pivot.getParent().setRight(pivot);
+				}
+			}
+			result = pivot;
+		}
+
+		return result;
 	}
 
 	/**
@@ -25,12 +41,30 @@ public class Util {
 	 * @return
 	 */
 	public static <T extends Comparable<T>> BSTNode<T> rightRotation(BSTNode<T> node) {
-		BSTNode<T> pivot = (BSTNode<T>) node.getLeft();
-		node.setLeft(pivot.getRight());
+		BSTNode<T> result = null;
 
-		pivot.setRight(node);
 
-		return (BSTNode<T>) node.getLeft();
+		if (node != null && !node.isEmpty()) {
+			BSTNode<T> pivot = (BSTNode<T>) node.getLeft();
+
+			node.setLeft(pivot.getRight());
+			node.getLeft().setParent(node);
+
+			pivot.setParent(node.getParent());
+			if (pivot.getParent() != null) {
+				if (pivot.getParent().getData().compareTo(pivot.getData()) > 0) {
+					pivot.getParent().setLeft(pivot);
+				} else {
+					pivot.getParent().setRight(pivot);
+				}
+			}
+			pivot.setRight(node);
+			node.setParent(pivot);
+
+			result = pivot;
+		}
+
+		return  result;
 	}
 
 	public static <T extends Comparable<T>> T[] makeArrayOfComparable(int size) {

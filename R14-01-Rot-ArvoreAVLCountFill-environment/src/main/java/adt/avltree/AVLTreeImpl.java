@@ -6,7 +6,7 @@ import adt.bt.Util;
 
 /**
  * 
- * Implementacao de uma arvore AVL
+ * Performs consistency validations within a AVL Tree instance
  * 
  * @author Claudio Campelo
  *
@@ -17,7 +17,7 @@ public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements
 
 	@Override
 	public void insert(T element) {
- 		if (element != null) {
+		if (element != null) {
 			insert(this.root, element);
 		}
 	}
@@ -35,13 +35,9 @@ public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements
 			} else if (element.compareTo(node.getData()) > 0) {
 				insert(getRight(node), element);
 			}
-            rebalanceUp(node);
-
+			rebalanceUp(node);
 		}
-
-
-
-    }
+	}
 
 	@Override
 	public void remove(T element) {
