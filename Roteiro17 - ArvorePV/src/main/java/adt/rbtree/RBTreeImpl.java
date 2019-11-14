@@ -18,8 +18,21 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T>
 	}
 
 	protected int blackHeight() {
-		return 0;
+		int resultado = -1;
+		if (!this.root.isEmpty()) {
+			resultado = blackHeight((RBNode<T>) this.root);
+		}
+		return resultado;
 	}
+
+	private int blackHeight(RBNode<T> node) {
+		if (!node.isEmpty() && node.getColour().equals(Colour.BLACK)) {
+			return 1 + (Math.max(blackHeight((RBNode<T>) root.getLeft()), blackHeight((RBNode<T>) root.getRight())));
+		} else {
+			return (Math.max(blackHeight((RBNode<T>) root.getLeft()), blackHeight((RBNode<T>) root.getRight())));
+		}
+	}
+
 
 
 	protected boolean verifyProperties() {
@@ -65,20 +78,21 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T>
 		boolean resultado = true;
 
 		if (node != null && !node.isEmpty()) {
-
-			if (node.getColour().equals(Colour.RED)) {
-				if (getLeft(node).getColour().equals(Colour.BLACK) && getRight(node).getColour().equals(Colour.BLACK)) {
-					resultado = verifyChildrenOfRedNodes(getLeft(node));
-					if (resultado) {
-						verifyChildrenOfRedNodes(getRight(node));
-					}
-				} else {
-					resultado = false;
-				}
-			} else {
+			if(node.getColour().equals(Colour.BLACK)) {
 				resultado = verifyChildrenOfRedNodes(getLeft(node));
 				if (resultado) {
-					verifyChildrenOfRedNodes(getRight(node));
+					resultado = verifyChildrenOfRedNodes(getRight(node));
+				}
+			} else {
+				if (getRight(node).getColour().equals(Colour.RED) || getLeft(node).getColour().equals(Colour.RED)) {
+					resultado = false;
+				} else {
+					if (getLeft(node).getColour().equals(Colour.BLACK)) {
+						resultado = verifyChildrenOfRedNodes(getLeft(node));
+					}
+					if (getRight(node).getColour().equals(Colour.BLACK) && resultado == true) {
+						resultado = verifyChildrenOfRedNodes(getRight(node));
+					}
 				}
 			}
 
@@ -91,7 +105,11 @@ public class RBTreeImpl<T extends Comparable<T>> extends BSTImpl<T>
 	 * Verifies the black-height property from the root.
 	 */
 	private boolean verifyBlackHeight() {
-		return true;
+		return ;
+	}
+
+	private boolean verifyBlackHeight(RBNode<T> node) {
+		if ()
 	}
 
 
