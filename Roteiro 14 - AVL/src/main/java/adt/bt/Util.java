@@ -15,7 +15,7 @@ public class Util {
 
 
 		if (node != null && !node.isEmpty()) {
-			BSTNode<T> pivot =  (BSTNode<T>) node.getRight();
+			BSTNode<T> pivot = (BSTNode<T>) node.getRight();
 			node.setRight(pivot.getLeft());
 			node.getRight().setParent(node);
 

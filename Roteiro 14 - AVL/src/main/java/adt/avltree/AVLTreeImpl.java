@@ -90,7 +90,7 @@ public class AVLTreeImpl<T extends Comparable<T>> extends BSTImpl<T> implements
 			if (!getLeft(node).isEmpty()) {
 				this.root = getLeft(this.root);
 
-			} else if (getRight(node) != null) {
+			} else if (!getRight(node).isEmpty()) {
 				this.root = getRight(this.root);
 			}
 			this.root.setParent(null);

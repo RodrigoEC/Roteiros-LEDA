@@ -2,13 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ecb53c7-4d56-4fd4-86b9-179d1d85e79d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/avltree/AVLCountAndFillImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/avltree/AVLCountAndFillImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/avltree/AVLCountAndFillImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/avltree/AVLCountAndFillImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 14 - Heap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/118210111-send.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/src/main/java/adt/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/src/main/java/adt/avltree/AVLTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/src/main/java/adt/avltree/AVLTreeImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/src/main/java/adt/bst/BST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/src/main/java/adt/bst/BSTImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/src/main/java/adt/bst/BSTNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/src/main/java/adt/bt/BT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/src/main/java/adt/bt/BTNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/src/main/java/adt/bt/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/src/test/java/adt/avltree/StudentAVLTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/submission.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/target/118210111.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/target/classes/adt/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/target/submission-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/target/surefire-reports/TEST-adt.avltree.StudentAVLTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/target/surefire-reports/adt.avltree.StudentAVLTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/target/test-classes/adt/avltree/StudentAVLTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/walkmod.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +59,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573151654174" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Roteiro 11 - BST" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
