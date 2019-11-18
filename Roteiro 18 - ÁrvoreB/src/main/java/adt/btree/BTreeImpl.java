@@ -1,5 +1,7 @@
 package adt.btree;
 
+import java.util.ArrayList;
+
 public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
 
 	protected BNode<T> root;
@@ -22,35 +24,59 @@ public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
 
 	@Override
 	public int height() {
-		return height(this.root);
+		return height(this.root, -1);
 	}
 
-	private int height(BNode<T> node) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not Implemented yet!");
+	private int height(BNode<T> node, int contador) {
+		if (!node.isLeaf()) {
+			contador = height(node.getChildren().getFirst(), ++contador);
+		}
+		return contador;
 	}
 
 	@Override
 	public BNode<T>[] depthLeftOrder() {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not Implemented yet!");
+		ArrayList<BNode<T>> lista = new ArrayList<>();
+		lista =  depthLeftOrder(this.root, lista);
+		BNode<T>[] arraySaida = (BNode<T>[]) new BNode[lista.size()];
+		return lista.toArray(arraySaida);
+	}
+
+	private ArrayList<BNode<T>> depthLeftOrder(BNode<T> node, ArrayList<BNode<T>> lista) {
+
+		if (!node.isEmpty()) {
+			lista.add(node);
+
+			for (int i = 0; i < node.getChildren().size(); i++) {
+				depthLeftOrder(node.getChildren().get(i), lista);
+			}
+		}
+		return lista;
 	}
 
 	@Override
 	public int size() {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not Implemented yet!");
+		return (int) Math.pow(2, height() + 1) - 1;
 	}
 
 	@Override
 	public BNodePosition<T> search(T element) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not Implemented yet!");
+		
 	}
 
 	@Override
 	public void insert(T element) {
-		
+		if (element != null) {
+			insert(this.root, element);
+		}
+
+	}
+
+	private void insert(BNode<T> node, T element) {
+
+
+
+
 
 	}
 
