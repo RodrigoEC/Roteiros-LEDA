@@ -37,12 +37,12 @@ public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
 	@Override
 	public BNode<T>[] depthLeftOrder() {
 		ArrayList<BNode<T>> lista = new ArrayList<>();
-		lista =  depthLeftOrder(this.root, lista);
+		depthLeftOrder(this.root, lista);
 		BNode<T>[] arraySaida = (BNode<T>[]) new BNode[lista.size()];
 		return lista.toArray(arraySaida);
 	}
 
-	private ArrayList<BNode<T>> depthLeftOrder(BNode<T> node, ArrayList<BNode<T>> lista) {
+	private void depthLeftOrder(BNode<T> node, ArrayList<BNode<T>> lista) {
 
 		if (!node.isEmpty()) {
 			lista.add(node);
@@ -51,7 +51,6 @@ public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
 				depthLeftOrder(node.getChildren().get(i), lista);
 			}
 		}
-		return lista;
 	}
 
 	@Override
@@ -61,7 +60,35 @@ public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
 
 	@Override
 	public BNodePosition<T> search(T element) {
-		
+		BNodePosition<T> resultado = new BNodePosition<T>();
+
+		if (element != null) {
+			resultado = search(element, this.root);
+		}
+
+		return resultado;
+
+	}
+
+	private BNodePosition<T> search(T element, BNode<T> node) {
+		BNodePosition<T> nodeSaida;
+
+		int contador = 0;
+		while (contador <= node.size() && element.compareTo(node.getElementAt(contador)) > 0) {
+			contador++;
+		}
+
+		if (contador <= node.size() && element.equals(node.getElementAt(contador))) {
+			nodeSaida = new BNodePosition<>(node, contador);
+
+		} else if (node.isLeaf()) {
+			nodeSaida = new BNodePosition<>();
+
+		} else {
+			nodeSaida = search(element, node.getChildren().get(contador));
+		}
+
+		return nodeSaida;
 	}
 
 	@Override
@@ -81,8 +108,7 @@ public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
 	}
 
 	private void split(BNode<T> node) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not Implemented yet!");
+		if (node.)
 	}
 
 	private void promote(BNode<T> node) {
