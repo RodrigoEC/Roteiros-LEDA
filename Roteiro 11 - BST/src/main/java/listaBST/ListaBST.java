@@ -37,7 +37,7 @@ public class ListaBST {
     private BSTNode<Integer> minimum(BSTNode<Integer> node) {
         BSTNode<Integer> resultado = null;
         if (node.isEmpty()) {
-            resultado =  (BSTNode<Integer>) node.getParent();
+            resultado = (BSTNode<Integer>) node.getParent();
         } else {
             minimum((BSTNode<Integer>) node.getLeft());
         }
@@ -50,9 +50,6 @@ public class ListaBST {
     public boolean isDecendent(Integer d, Integer p) {
         boolean isDecendent = true;
 
-
-
-
+        return isDecendent;
     }
-
 }
