@@ -28,8 +28,12 @@ public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
 	}
 
 	private int height(BNode<T> node, int contador) {
-		if (!node.isLeaf()) {
-			contador = height(node.getChildren().getFirst(), ++contador);
+		if (node != null && !node.isEmpty()) {
+			if (!node.isLeaf()) {
+				contador = height(node.getChildren().getFirst(), ++contador);
+			}else {
+				contador++;
+			}
 		}
 		return contador;
 	}
@@ -43,7 +47,6 @@ public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
 	}
 
 	private void depthLeftOrder(BNode<T> node, ArrayList<BNode<T>> lista) {
-
 		if (!node.isEmpty()) {
 			lista.add(node);
 
@@ -71,49 +74,115 @@ public class BTreeImpl<T extends Comparable<T>> implements BTree<T> {
 	}
 
 	private BNodePosition<T> search(T element, BNode<T> node) {
-		BNodePosition<T> nodeSaida;
+		BNodePosition<T> nodeSaida = new BNodePosition<>();
 
-		int contador = 0;
-		while (contador <= node.size() && element.compareTo(node.getElementAt(contador)) > 0) {
-			contador++;
+		if (element != null) {
+
+			int contador = 0;
+			while (contador < node.size() && element.compareTo(node.getElementAt(contador)) > 0) {
+				contador++;
+			}
+
+			if (contador < node.size() && element.equals(node.getElementAt(contador))) {
+				nodeSaida = new BNodePosition<>(node, contador);
+
+			} else if (node.isLeaf()) {
+				nodeSaida = new BNodePosition<>();
+
+			} else {
+				nodeSaida = search(element, node.getChildren().get(contador));
+			}
+
 		}
-
-		if (contador <= node.size() && element.equals(node.getElementAt(contador))) {
-			nodeSaida = new BNodePosition<>(node, contador);
-
-		} else if (node.isLeaf()) {
-			nodeSaida = new BNodePosition<>();
-
-		} else {
-			nodeSaida = search(element, node.getChildren().get(contador));
-		}
-
 		return nodeSaida;
+
 	}
 
 	@Override
 	public void insert(T element) {
 		if (element != null) {
-			insert(this.root, element);
+			insert(element, this.root);
 		}
 
 	}
 
-	private void insert(BNode<T> node, T element) {
+	private void insert(T element, BNode<T> node) {
 
+		if (element != null && !node.equals(search(element))) {
+			int contador = 0;
+			while (contador < node.size() && element.compareTo(node.getElementAt(contador)) > 0) {
+				contador++;
+			}
 
+			if (contador >= node.getElements().size() || !node.getElementAt(contador).equals(element)) {
+				if (node.isLeaf()) {
+					node.addElement(element);
+				} else {
+					this.insert(element, node.getChildren().get(contador));
+				}
+			}
 
+			if (node.getMaxKeys() < node.size()) {
+				this.split(node);
 
-
+			}
+		}
 	}
 
 	private void split(BNode<T> node) {
-		if (node.)
+		BNode<T> auxNode = 	node;
+		int numChaves = node.elements.size();
+		int mediumIndex = numChaves / 2;
+		T mediumElement = node.getElementAt(mediumIndex);
+
+		BNode<T> leftNode = constructNode(node, 0, mediumIndex);
+		BNode<T> rightNode = constructNode(node, mediumIndex + 1, numChaves);
+
+		if (node.getParent() == null) {
+			BNode<T> newRoot = new BNode<>(this.order);
+			newRoot.addElement(mediumElement);
+			auxNode.setParent(newRoot);
+			this.root = newRoot;
+
+			auxNode = this.root;
+			auxNode.addChild(0, leftNode);
+			auxNode.addChild(1, rightNode);
+			auxNode.getChildren().get(0).setParent(newRoot);
+			auxNode.getChildren().get(1).setParent(newRoot);
+
+		} else {
+			BNode<T> dad = node.getParent();
+			dad.addElement(mediumElement);
+			dad.removeChild(auxNode);
+			dad.addChild(0, leftNode);
+			dad.addChild(1, rightNode);
+
+			if (this.order < dad.getElements().size()) {
+				split(dad);
+			}
+		}
+
+	}
+
+
+	private BNode<T> constructNode(BNode<T> node, int inicio, int fim) {
+		BNode<T> nodeSaida = new BNode<>(this.order);
+		for (int i = inicio; i < fim; i++) {
+			nodeSaida.addElement(node.getElementAt(i));
+		}
+		if (node.getChildren().size() > 0) {
+			int contador = 0;
+			for(int i = inicio; i < fim; i++) {
+				BNode<T> n = node.getChildren().get(i);
+				nodeSaida.addChild(contador++, n);
+			}
+		}
+		return nodeSaida;
 	}
 
 	private void promote(BNode<T> node) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not Implemented yet!");
+		// Sinceramente não tenho a menor ideia do que eh isso...não lembro de adalberto falando sobre e não tem na
+		// interface BTree, então..
 	}
 
 	// NAO PRECISA IMPLEMENTAR OS METODOS ABAIXO

@@ -107,7 +107,7 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 			heap = Arrays.copyOf(heap, heap.length + INCREASING_FACTOR);
 		}
 		// /////////////////////////////////////////////////////////////////
-		if (element !=null) {
+		if (element != null) {
 			int apont = ++this.index;
 
 			while (apont > 0 && this.comparator.compare(this.heap[parent(apont)], element) < 0) {
@@ -161,16 +161,60 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 		if (array.length != 0) {
 			buildHeap(array);
 
-			for (int i = array.length - 1; i >  1; i--) {
-				Util.swap(array, i, 0);
+			for (int i = array.length - 1; i >=  1; i--) {
 				this.index--;
+				Util.swap(array, i, 0);
 				heapify(0);
 			}
+			this.index--;
 
 		}
 
 		return array;
 	}
+
+	public T[] merge(T[] array1, T[] array2) {
+		this.heap = (T[]) new Comparable[INITIAL_SIZE];
+		ArrayList<T> lista = new ArrayList<>();
+
+		int contador = 0;
+		while (contador < (array1.length + array2.length)) {
+			if (contador < array1.length) {
+				if (!lista.contains(array1[contador])) {
+					lista.add(array1[contador]);
+				}
+			} else {
+				if (!lista.contains(array2[contador - array1.length])) {
+					lista.add(array2[contador - array1.length]);
+				}
+			}
+
+			contador++;
+		}
+
+		return lista.toArray((T[]) new Comparable[lista.size()]);
+	}
+
+	public T[] elementsByLevel(int level) {
+		return elementsByLevel(level, this.rootElement());
+	}
+
+	private T[] elementsByLevel(int level, T elem) {
+		ArrayList<T> lista = new ArrayList<>();
+		double elemNivelAcima = Math.pow(2, level) - 1;
+		double elemNivelAtual = Math.pow(2, level + 1) - 1;
+
+		while (elemNivelAcima < elemNivelAtual && elemNivelAcima < this.heap.length) {
+			lista.add(this.heap[(int) elemNivelAcima++]);
+		}
+
+		return lista.toArray((T[]) new Comparable[lista.size()]);
+
+
+
+
+	}
+
 
 	@Override
 	public int size() {

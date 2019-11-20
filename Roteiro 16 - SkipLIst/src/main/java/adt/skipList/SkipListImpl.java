@@ -1,5 +1,7 @@
 package adt.skipList;
 
+import java.util.ArrayList;
+
 public class SkipListImpl<T> implements SkipList<T> {
 
 	protected SkipListNode<T> root;
@@ -139,5 +141,29 @@ public class SkipListImpl<T> implements SkipList<T> {
 
 		return arraySaida;
 	}
+
+	public T[] allNodes() {
+		ArrayList<T> listaSaida = new ArrayList<>();
+
+		int contador = this.maxHeight - 1;
+		while(contador >= 0) {
+
+			addNodesAtLevel(listaSaida, contador--);
+		}
+
+		return listaSaida.toArray((T[]) new Comparable[listaSaida.size()]);
+	}
+
+	public void addNodesAtLevel(ArrayList<T> lista, int level) {
+		SkipListNode<T> auxNode = this.root.getForward(level);
+		while(!auxNode.equals(NIL)) {
+			if (!lista.contains(auxNode.getValue())) {
+				lista.add(auxNode.getValue());
+			}
+			auxNode = auxNode.getForward(level);
+		}
+	}
+
+
 
 }

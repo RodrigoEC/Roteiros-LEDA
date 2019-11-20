@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50e85d9e-23fd-4cc0-8d69-a3f602b641de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/listaHeapAVL/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 11 - BST/src/main/java/listaBST/ListaBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 11 - BST/src/main/java/listaBST/ListaBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 11 - BST/src/main/java/listaBST/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 11 - BST/src/main/java/listaBST/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 11 - BST/target/classes/listaBST/ListaBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 11 - BST/target/classes/listaBST/ListaBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 11 - BST/target/classes/listaBST/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 11 - BST/target/classes/listaBST/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 12 - Extended BST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 12 - Extended BST/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Roteiro17 - ArvorePV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro17 - ArvorePV/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/heap/HeapImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/heap/HeapImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/src/main/java/adt/skipList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/src/main/java/adt/skipList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/src/main/java/adt/skipList/SkipListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/src/main/java/adt/skipList/SkipListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/target/classes/adt/skipList/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/target/classes/adt/skipList/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/target/classes/adt/skipList/SkipListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/target/classes/adt/skipList/SkipListImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/target/test-classes/adt/skipList/StudentSkipListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/target/test-classes/adt/skipList/StudentSkipListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 18 - ÁrvoreB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 18 - ÁrvoreB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 18 - ÁrvoreB/src/main/java/adt/btree/BTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 18 - ÁrvoreB/src/main/java/adt/btree/BTreeImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +44,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572547238059" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Roteiro 14 - AVL" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -79,22 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMaxHeapTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="submission" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adt.heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="adt.heap" />
-      <option name="MAIN_CLASS_NAME" value="adt.heap.StudentMaxHeapTest" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudentMaxHeapTest.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -111,20 +113,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentMaxHeapTest.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.heap" />
+      <option name="MAIN_CLASS_NAME" value="adt.heap.StudentMaxHeapTest" />
+      <option name="METHOD_NAME" value="testSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.StudentMaxHeapTest.testBuild" />
-      <item itemvalue="JUnit.StudentMaxHeapTest.testInsert" />
       <item itemvalue="JUnit.StudentMaxHeapTest.testRemove" />
       <item itemvalue="JUnit.StudentMaxHeapTest" />
+      <item itemvalue="JUnit.StudentMaxHeapTest.testSort" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StudentMaxHeapTest" />
+        <item itemvalue="JUnit.StudentMaxHeapTest.testSort" />
+        <item itemvalue="JUnit.StudentMaxHeapTest.testBuild" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.StudentMaxHeapTest.testRemove" />
-        <item itemvalue="JUnit.StudentMaxHeapTest.testInsert" />
-        <item itemvalue="JUnit.StudentMaxHeapTest.testBuild" />
       </list>
     </recent_temporary>
   </component>
@@ -141,36 +159,34 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="StudentMaxHeapTest_testBuild - 2019.10.31 at 14h 55m 09s.xml">
-      <configuration name="StudentMaxHeapTest.testBuild" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMaxHeapTest_testInsert - 2019.10.31 at 14h 55m 13s.xml">
-      <configuration name="StudentMaxHeapTest.testInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMaxHeapTest_testRemove - 2019.10.31 at 14h 55m 17s.xml">
-      <configuration name="StudentMaxHeapTest.testRemove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMaxHeapTest - 2019.10.31 at 15h 38m 58s.xml">
-      <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMaxHeapTest - 2019.10.31 at 15h 39m 12s.xml">
-      <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMaxHeapTest - 2019.10.31 at 15h 39m 20s.xml">
-      <configuration name="StudentMaxHeapTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

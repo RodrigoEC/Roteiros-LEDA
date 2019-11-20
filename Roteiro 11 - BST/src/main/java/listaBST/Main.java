@@ -12,7 +12,9 @@ public class Main {
         }
         ListaBST b = new ListaBST();
 
-        System.out.println(b.contaFolhas(tree));
+
+        System.out.println(b.isDecendent(6, 23, tree));
+        System.out.println(b.distance(6, 6, tree));
 
     }
 }

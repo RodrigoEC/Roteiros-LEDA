@@ -2,11 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f97515f4-e61d-4d55-9959-69437808ceaf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Roteiro 13 - Heap/src/main/java/listaHeapAVL/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 11 - BST/src/main/java/listaBST/ListaBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 11 - BST/src/main/java/listaBST/ListaBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 11 - BST/src/main/java/listaBST/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 11 - BST/src/main/java/listaBST/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 11 - BST/target/classes/listaBST/ListaBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 11 - BST/target/classes/listaBST/ListaBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 11 - BST/target/classes/listaBST/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 11 - BST/target/classes/listaBST/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 12 - Extended BST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 12 - Extended BST/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 13 - Heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 13 - Heap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 13 - Heap/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 13 - Heap/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 13 - Heap/src/main/java/adt/heap/HeapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 13 - Heap/src/main/java/adt/heap/HeapImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 13 - Heap/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 13 - Heap/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 13 - Heap/target/classes/adt/heap/HeapImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 13 - Heap/target/classes/adt/heap/HeapImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - AVL/src/main/java/adt/avltree/AVLTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 14 - AVL/src/main/java/adt/avltree/AVLTreeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 14 - Heap/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/src/main/java/adt/skipList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/src/main/java/adt/skipList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/src/main/java/adt/skipList/SkipListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/src/main/java/adt/skipList/SkipListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/target/classes/adt/skipList/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/target/classes/adt/skipList/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/target/classes/adt/skipList/SkipListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/target/classes/adt/skipList/SkipListImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/target/test-classes/adt/skipList/StudentSkipListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 16 - SkipLIst/target/test-classes/adt/skipList/StudentSkipListTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/rbtree/RBTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/rbtree/RBTreeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 18 - ÁrvoreB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 18 - ÁrvoreB/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Roteiro 18 - ÁrvoreB/src/main/java/adt/btree/BTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Roteiro 18 - ÁrvoreB/src/main/java/adt/btree/BTreeImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +49,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573755791363" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Roteiro 18 - ÁrvoreB" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -133,7 +151,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
